@@ -1,0 +1,36 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.covid.cert",
+  "serialNumber" : "E5982H-I2",
+  "teamIdentifier" : "NBFUBPDFNL",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "barcode" : {
+    "message" : "HC1:6BFOXN%TS3DH+M8.IAS0RTAN:2MCID:D4*Z8%CM5*KR$PB2P:.IY1F7D6:WK1/3F/8X*G3M9JUPY0BX/KQ96R/S09T./0LWTKD33236J3TA3M*4VV2 73-E3GG396B-43O058YIB73A*GMX1+ZEI+H:PI0EGSP4*2DN43U*0CEBQ/GXQFY735HB HVJC3-WN/IBUBJU53KD3HB3BAJ$23:NB*97+BBARNUA3UGJJONSLJQZ4A+2XEN QT QTHC31M3+E32R4UZ2UI7Y6T4R2H4T8%K+-8*S2E6J1$48X2+36D-I/2DBAJDAJFM0P:6Q3QR$P2OIC0J0LI:3T6%TED3Y.T413U1UDZIE7H71AP8QLD98UEC1V84V0T9NAQ1C6UVPQRHIY1VS1NQ1PRAAUICO16Y59UEW*H$%H2E4.*NXRM/4AO-B2KRSX61ETUBWGUMD9LKP15VT+JV-R6HXLZ+4L%HOMR*GK:0LUS9GE5UMQRQUVXORIRFCNGA9MJ4Q9VXUOOB3CE5PXAA00V7WJ1",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Paw Planet",
+  "description" : "Paw Planet Coupon",
+  "logoText" : "Paw Planet",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(206, 140, 53)",
+  "generic" : {
+    "primaryFields" : [
+      {
+        "key" : "offer",
+        "label" : "Any premium dog food",
+        "value" : "20% off"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "expires",
+        "label" : "EXPIRES",
+        "value" : "2013-04-24T10:00-05:00",
+        "isRelative" : true,
+        "dateStyle" : "PKDateStyleShort"
+      }
+    ]
+  }
+}
