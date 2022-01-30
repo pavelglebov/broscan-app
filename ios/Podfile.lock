@@ -277,6 +277,8 @@ PODS:
     - React-Core
   - react-native-camera/RN (4.2.1):
     - React-Core
+  - react-native-wallet (1.0.8):
+    - React
   - React-perflogger (0.65.1)
   - React-RCTActionSheet (0.65.1):
     - React-Core/RCTActionSheetHeaders (= 0.65.1)
@@ -389,6 +391,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-camera (from `../node_modules/react-native-camera`)
+  - react-native-wallet (from `../node_modules/react-native-wallet`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -455,6 +458,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-camera:
     :path: "../node_modules/react-native-camera"
+  react-native-wallet:
+    :path: "../node_modules/react-native-wallet"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -515,6 +520,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 43f2542aed3c26e42175b339f8d37fe3dd683765
   React-jsinspector: 41e58e5b8e3e0bf061fdf725b03f2144014a8fb0
   react-native-camera: 210a872c84d3aa0982a9223047ef9e743ed694fa
+  react-native-wallet: 7b6f613dfd7dcda04e93657a4ac433338b03826c
   React-perflogger: fd28ee1f2b5b150b00043f0301d96bd417fdc339
   React-RCTActionSheet: 7f3fa0855c346aa5d7c60f9ced16e067db6d29fa
   React-RCTAnimation: 2119a18ee26159004b001bc56404ca5dbaae6077
@@ -531,6 +537,6 @@ SPEC CHECKSUMS:
   Yoga: aa0cb45287ebe1004c02a13f279c55a95f1572f4
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: d42faa23d1a66d54ef9aadc97b03db3762f00032
+PODFILE CHECKSUM: 773c5409c34a093fee69fac1bd7dd5d252d812f6
 
 COCOAPODS: 1.11.2

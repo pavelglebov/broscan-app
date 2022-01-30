@@ -7,6 +7,7 @@ import {Buffer} from 'buffer';
 import base45 from 'base45';
 import zlib from 'pako';
 import cbor from 'cbor-js';
+
 import styles from './App.styles';
 import Camera from './components/camera';
 import Overlay from './components/overlay';

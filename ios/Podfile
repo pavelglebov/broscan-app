@@ -13,6 +13,8 @@ target 'broscam' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-wallet', :path => '../node_modules/react-native-wallet'
+
   target 'broscamTests' do
     inherit! :complete
     # Pods for testing

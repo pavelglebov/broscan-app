@@ -1,7 +1,9 @@
+import Wallet from 'react-native-wallet';
+
 const CERT_URL = 'https://d412l01u3g.execute-api.eu-central-1.amazonaws.com/prod/pkpass1';
 
 class Fetch {
-  getPass(data) {
+  getPass = async (data) => {
     const startTime = new Date();
 
     console.log(JSON.stringify(data));
@@ -16,6 +18,21 @@ class Fetch {
     })
     .then((response) => {
       console.log('response', response);
+
+      response.blob().then(function(myBlob) {
+
+        try {
+          // https://github.com/erikpoort/react-native-wallet
+          Wallet.canAddPasses(added => {
+            console.log('canAddPasses', added);
+    
+            Wallet.showAddPassControllerFromFile(JSON.stringify(myBlob.data));
+            // Wallet.showAddPassControllerFromURL(CERT_URL);
+          });
+        } catch (err) {
+          console.log('showAddPassControllerFromFile error', err);
+        }
+      });
     })
     .catch((e) => {
       console.error('request error: ', e);
