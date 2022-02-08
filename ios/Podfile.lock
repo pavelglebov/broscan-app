@@ -277,6 +277,8 @@ PODS:
     - React-Core
   - react-native-camera/RN (4.2.1):
     - React-Core
+  - react-native-passkit-wallet (0.1.4):
+    - React
   - react-native-wallet (1.0.8):
     - React
   - React-perflogger (0.65.1)
@@ -343,6 +345,8 @@ PODS:
     - React-cxxreact (= 0.65.1)
     - React-jsi (= 0.65.1)
     - React-perflogger (= 0.65.1)
+  - rn-fetch-blob (0.12.0):
+    - React-Core
   - VisionCamera (2.12.0):
     - React
     - React-callinvoker
@@ -391,6 +395,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-camera (from `../node_modules/react-native-camera`)
+  - react-native-passkit-wallet (from `../node_modules/react-native-passkit-wallet`)
   - react-native-wallet (from `../node_modules/react-native-wallet`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -404,6 +409,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
   - VisionCamera (from `../node_modules/react-native-vision-camera`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -458,6 +464,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-camera:
     :path: "../node_modules/react-native-camera"
+  react-native-passkit-wallet:
+    :path: "../node_modules/react-native-passkit-wallet"
   react-native-wallet:
     :path: "../node_modules/react-native-wallet"
   React-perflogger:
@@ -484,6 +492,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  rn-fetch-blob:
+    :path: "../node_modules/rn-fetch-blob"
   VisionCamera:
     :path: "../node_modules/react-native-vision-camera"
   Yoga:
@@ -520,6 +530,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 43f2542aed3c26e42175b339f8d37fe3dd683765
   React-jsinspector: 41e58e5b8e3e0bf061fdf725b03f2144014a8fb0
   react-native-camera: 210a872c84d3aa0982a9223047ef9e743ed694fa
+  react-native-passkit-wallet: 51e3babdaeec4c10b5736786ebd1bfb470fcaa36
   react-native-wallet: 7b6f613dfd7dcda04e93657a4ac433338b03826c
   React-perflogger: fd28ee1f2b5b150b00043f0301d96bd417fdc339
   React-RCTActionSheet: 7f3fa0855c346aa5d7c60f9ced16e067db6d29fa
@@ -533,10 +544,11 @@ SPEC CHECKSUMS:
   React-RCTVibration: 92d41c2442e5328cc4d342cd7f78e5876b68bae5
   React-runtimeexecutor: 85187f19dd9c47a7c102f9994f9d14e4dc2110de
   ReactCommon: eafed38eec7b591c31751bfa7494801618460459
+  rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   VisionCamera: fd560def88b229f4fee65b982ac59a78986328d0
   Yoga: aa0cb45287ebe1004c02a13f279c55a95f1572f4
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 773c5409c34a093fee69fac1bd7dd5d252d812f6
+PODFILE CHECKSUM: 05b2273053a05ca50f3008638e494eab77ec0d51
 
 COCOAPODS: 1.11.2
