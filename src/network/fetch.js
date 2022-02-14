@@ -1,7 +1,7 @@
 import PassKit, { AddPassButton } from 'react-native-passkit-wallet'
 
 const CERT_URL = 'https://d412l01u3g.execute-api.eu-central-1.amazonaws.com/prod/pkpass1';
-const BASE64_REGEX = /(?<=base64,).*/gms;
+const BASE64_REGEX = /base64,([\s\S]*)$/gms;
 
 class Fetch {
   getPass = async (data) => {
@@ -30,9 +30,11 @@ class Fetch {
             .then(base64 => {
               const parts = base64?.match(BASE64_REGEX);
 
-              const actualBase = parts && parts[0];
+              let actualBase = parts && parts[0];
 
               if (actualBase) {
+                actualBase = actualBase.slice(7);
+
                 PassKit.addPass(actualBase);
               } else {
                 console.error('Error reading base64 regex: ', base64);
