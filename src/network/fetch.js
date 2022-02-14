@@ -1,4 +1,4 @@
-import PassKit, { AddPassButton } from 'react-native-passkit-wallet'
+import PassKit from 'react-native-passkit-wallet';
 
 const CERT_URL = 'https://d412l01u3g.execute-api.eu-central-1.amazonaws.com/prod/pkpass1';
 const BASE64_REGEX = /base64,([\s\S]*)$/gms;

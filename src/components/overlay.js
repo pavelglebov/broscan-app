@@ -1,23 +1,14 @@
 import React from 'react';
-import {
-  Text,
-  Pressable,
-} from 'react-native';
 import styles from '../App.styles';
+import PassKit, { AddPassButton } from 'react-native-passkit-wallet'
 
 const Overlay = ({onRequest}) => {
   return (
-    <Pressable
-      style={({ pressed }) => [
-        {
-          opacity: pressed && 0.9 || 1,
-        },
-        styles.button
-      ]}
+    <AddPassButton
+      style={styles.button}
+      addPassButtonStyle={PassKit.AddPassButtonStyle.black}
       onPress={onRequest}
-    >
-      <Text style={styles.text}>Get wallet</Text>
-    </Pressable>
+    />
   );
 };
 

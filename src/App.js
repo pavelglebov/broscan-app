@@ -1,6 +1,7 @@
 import React, {useState, useCallback} from 'react';
 import {
   SafeAreaView,
+  Text,
 } from 'react-native';
 import {Buffer} from 'buffer';
 // import { encode, decode } from 'cborg';
@@ -65,6 +66,8 @@ const App = () => {
   return (
     <SafeAreaView style={styles.root}>
       <Camera onBarCodeRead={onBarCodeRead}/>
+
+      {!qr && <Text style={styles.description}>Scan Covid certificate QR code</Text>}
 
       {qr && <Overlay onRequest={Fetch.getPass.bind(this, data)}/>}
     </SafeAreaView>

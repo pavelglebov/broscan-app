@@ -25,5 +25,13 @@ export default StyleSheet.create({
     backgroundColor: 'rgb(128, 74, 165)',
     borderRadius: 14,
     justifyContent: 'center',
-  }
+  },
+  description: {
+    position: 'absolute',
+    top: 80,
+    alignSelf: 'center',
+    color: 'white',
+    fontSize: 20,
+    fontWeight: '700',
+  },
 });
