@@ -488,6 +488,7 @@
 			baseConfigurationReference = BAD8F6564C671D58D182495C /* Pods-broscam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = broscam/broscam.entitlements;
 				CURRENT_PROJECT_VERSION = 2;
@@ -517,6 +518,7 @@
 			baseConfigurationReference = 483DCFAEAB672BA93D4CACF7 /* Pods-broscam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = broscam/broscam.entitlements;
 				CURRENT_PROJECT_VERSION = 2;
