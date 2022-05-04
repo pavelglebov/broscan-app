@@ -58,7 +58,11 @@ const App = () => {
       const decoded = cbor.decode(cbored1part.buffer);
 
       const data = retrieveData(decoded);
+
+      data.qr = qr;
+
       setData(data);
+
       console.log('data', data);
     }
   };
